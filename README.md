@@ -1,62 +1,61 @@
-# Customized Database Management System
+# DataForge DBMS
 
-A customized in-memory Database Management System developed in Java using Object-Oriented Programming and the Collections Framework. The project simulates core DBMS functionalities without using any external database such as MySQL or Oracle.
+### A Custom In-Memory Database Engine Built with Java
 
----
+DataForge DBMS is a custom-built in-memory database management system developed using Core Java and the Collections Framework. The project simulates real-world database operations without relying on external database technologies such as MySQL, PostgreSQL, or Oracle.
 
-## Overview
-
-This project is designed to demonstrate the internal working of a Database Management System by implementing SQL-like operations using Java and LinkedList data structures.
-
-Employee records are stored dynamically in memory, and users can perform various database operations through a menu-driven command-line interface.
+The system manages employee records dynamically using LinkedList-based storage and provides SQL-inspired functionalities including CRUD operations, record searching, aggregation, and data manipulation.
 
 ---
 
 ## Features
 
-### CRUD Operations
-- Insert Employee Records
-- Display All Records
-- Search Employee by ID
-- Search Employee by Name
-- Update Employee Information
-- Delete Employee Records
+### Record Management
 
-### Aggregate Functions
-- Count Records
-- Sum of Salaries
-- Average Salary
-- Maximum Salary
-- Minimum Salary
+* Insert Employee Records
+* Display All Records
+* Search by Employee ID
+* Search by Employee Name
+* Update Employee Information
+* Delete Employee Records
 
-### Additional Features
-- Automatic Employee ID Generation
-- Menu Driven Interface
-- Dynamic Data Storage using LinkedList
-- SQL-like Database Operations
+### Aggregate Operations
+
+* Count Records
+* Sum of Salaries
+* Average Salary
+* Maximum Salary
+* Minimum Salary
+
+### Additional Functionalities
+
+* Automatic Employee ID Generation
+* Dynamic Memory Allocation
+* Menu-Driven Interface
+* SQL-Like Data Processing
 
 ---
 
 ## Technologies Used
 
-- Java
-- Object-Oriented Programming (OOP)
-- Collections Framework
-- LinkedList
-- Command Line Interface (CLI)
+* Java
+* Object-Oriented Programming (OOP)
+* Collections Framework
+* LinkedList
+* Command Line Interface
 
 ---
 
-## Project Architecture
+## System Design
 
 ```text
 User
  │
  ▼
-Menu Driven Interface
+Menu Interface
  │
  ▼
-MarvellousDBMS
+DataForge DBMS
  │
  ▼
 LinkedList<Employee>
@@ -67,112 +66,77 @@ Employee Records
 
 ---
 
-## Class Structure
+## Core Concepts Implemented
 
-### Employee Class
-
-Stores employee details:
-
-- Employee ID
-- Employee Name
-- Employee Age
-- Employee Address
-- Employee Salary
-
-### MarvellousDBMS Class
-
-Implements database operations:
-
-- Insert
-- Select
-- Update
-- Delete
-- Aggregate Functions
+* Encapsulation
+* Constructors
+* Static Members
+* Method Overloading
+* Collections Framework
+* Dynamic Data Structures
+* CRUD Operations
+* Aggregate Functions
 
 ---
 
 ## Supported Operations
 
-| Operation | Description |
-|------------|------------|
-| Insert | Add new employee |
-| Select All | Display all employees |
-| Select by ID | Search employee using ID |
-| Select by Name | Search employee using name |
-| Update | Update employee information |
-| Delete | Remove employee record |
-| Count | Count total records |
-| Sum | Total salary calculation |
-| Average | Average salary calculation |
-| Maximum | Highest salary |
-| Minimum | Lowest salary |
+| Operation | Description                 |
+| --------- | --------------------------- |
+| Insert    | Add Employee Record         |
+| Select    | Retrieve Employee Records   |
+| Update    | Modify Employee Information |
+| Delete    | Remove Employee Records     |
+| Count     | Count Total Records         |
+| Sum       | Calculate Total Salaries    |
+| Average   | Calculate Average Salary    |
+| Maximum   | Find Highest Salary         |
+| Minimum   | Find Lowest Salary          |
 
 ---
 
-## Sample Menu
+## Sample Operations
 
 ```text
-1. Insert Record
-2. Display All Records
-3. Display Record By ID
-4. Display Record By Name
-5. Delete Record
-6. Count Records
-7. Sum Salaries
-8. Average Salary
-9. Maximum Salary
-10. Minimum Salary
-11. Update Record
-12. Delete Database
-13. Exit
-```
-
----
-
-## Sample Output
-
-```text
-Welcome to Marvellous DBMS
-
-Enter Employee Name : John
-Enter Age : 25
-Enter Salary : 50000
-Enter Address : Pune
-
-Record inserted successfully.
+Insert Employee
+Display Records
+Search by ID
+Search by Name
+Update Address
+Delete Record
+Count Records
+Calculate Salary Statistics
 ```
 
 ---
 
 ## Learning Outcomes
 
-- Database Management System Concepts
-- Object-Oriented Programming
-- Java Collections Framework
-- LinkedList Data Structure
-- CRUD Operations
-- Aggregate Function Implementation
-- Algorithm Design
+* Database Management System Fundamentals
+* Java Collections Framework
+* Object-Oriented Programming
+* Data Structures
+* Algorithm Design
+* Custom Query Processing
+* CRUD Application Development
 
 ---
 
 ## Future Enhancements
 
-- File Storage Support
-- MySQL Integration
-- GUI using JavaFX/Swing
-- User Authentication
-- SQL Query Parser
-- Report Generation
+* Persistent File Storage
+* SQL Query Parser
+* Graphical User Interface
+* MySQL Integration
+* User Authentication
+* Report Generation
 
 ---
 
 ## Author
 
-**Shabdshree Lohar**
+Shabdshree Lohar
 
-B.Tech Computer Science Engineering
+Java Full Stack Developer
 
-Sanjay Ghodawat University
-
-GitHub: https://github.com/ShabdshreeLohar21
+Kolhapur, Maharashtra
